@@ -1,0 +1,21 @@
+# Firefox
+use-application-dns.net
+redirector.gvt1.com
+
+# Switch eShop Checkout
+live.adyen.com
+checkoutshopper-live.adyen.com
+
+# XBOX
+vortex.data.microsoft.com
+web.vortex.data.microsoft.com
+v10.events.data.microsoft.com
+settings-win.data.microsoft.com
+iriscoremetadataprod.blob.core.windows.net
+fpt.microsoft.com
+c1.microsoft.com
+arc.msn.com
+
+# Gmail
+(\.|^)mail-attachment\.googleusercontent\.com$
+(\.|^)googlehosted\.l\.googleusercontent\.com$

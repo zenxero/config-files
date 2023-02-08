@@ -1,0 +1,19 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 16,
+    "breadcrumbs.enabled": true,
+    "explorer.compactFolders": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "update.mode": "manual",
+    "redhat.telemetry.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.selectionClipboard": false,
+    "rewrap.wrappingColumn": 80,
+    "window.zoomLevel": 0.5
+}

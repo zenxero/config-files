@@ -1,0 +1,22 @@
+#### Aliases ####
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -l'
+alias pull_all='ls | xargs -I{} git -C {} pull'
+#alias resetdirs="find . -type d -exec chmod 0755 {} \;"
+#alias resetfiles="find . -type f -exec chmod 0644 {} \;"
+alias rm="rm -i"
+alias boot-mode='[ -d /sys/firmware/efi ] && echo UEFI || echo BIOS'
+alias cp='cp -i'
+alias disk-space='df -hlPT | grep -v tmpfs | grep -v squashfs'
+alias disk-layout='lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT,LABEL | grep -v squashfs'
+alias follow='tail -f'
+alias ip-list='ip -brief -color address'
+alias inodes='df -ihPT | grep -v tmpfs | grep -v squashfs'
+alias mount-list='mount | column -t'
+alias mv='mv -i'
+alias nfs-list='df -hPT -t nfs'
+alias nvidia-list='nvidia-smi -L'
+alias nvidia-status='nvidia-smi'
+alias open-ports='netstat -tulanp'
+alias os-version='cat /etc/os-release | grep PRETTY_NAME | cut -d "=" -f2'

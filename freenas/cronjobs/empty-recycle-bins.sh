@@ -1,0 +1,1 @@
+find /mnt/pool0/*/.recycle/* -atime +5 -delete; find /mnt/pool0/*/.recycle/ -type d -empty -delete
