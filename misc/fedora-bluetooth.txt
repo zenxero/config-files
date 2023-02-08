@@ -1,0 +1,12 @@
+chmod 0555 /etc/bluetooth/
+
+# /etc/bluetooth/main.conf
+Experimental = true
+KernelExperimental = true
+
+rmmod btusb
+rmmod btintel
+modprobe btintel
+modprobe btusb
+
+systemctl restart bluetooth.service
