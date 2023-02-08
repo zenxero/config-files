@@ -1,0 +1,37 @@
+" Turn on syntax highlighting
+syntax enable
+
+" Instead of failing a command because of unsaved changes, instead raise a
+" dialogue asking if you wish to save changed files.
+set confirm
+
+" Display line numbers on the left
+set number
+
+" Use case insensitive search, except when using capital letters
+set ignorecase
+set smartcase
+
+" Highlight cursor line
+set cursorline
+
+" Highlight column 80
+":set colorcolumn=80
+
+" Highlight searches (use <C-L> to temporarily turn off highlighting)
+set hlsearch
+
+" Map <C-L> (redraw screen) to also turn off search highlighting until the
+" next search
+nnoremap <C-L> :nohl<CR><C-L>
+
+" Enable full mouse interaction
+"set mouse=a
+
+" Start scrolling 5 lines before the window border
+set so=5
+
+" Tab options
+"set ts=4
+"set shiftwidth=4
+set expandtab
